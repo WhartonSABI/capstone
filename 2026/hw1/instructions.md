@@ -26,7 +26,7 @@ Your first task is to create a ranking of goalie performance. Using the data in 
 
 ### Part 1b: Predicting Second Half Performance
 
-Your second task is to predict the performance of each goalie in the second half of the sesaon. Using the data in `1h_v1.csv`, make a forecast for each goalie's performance in the second half of the season. You may use any method you choose.
+Your second task is to predict the performance of each goalie in the second half of the season. Using the data in `1h_v1.csv`, make a forecast for each goalie's performance in the second half of the season. You may use any method you choose.
 
 **Key considerations:** Your predictions should account for uncertainty and sample size differences. Consider how to handle goalies with different amounts of playing time.
 
@@ -40,7 +40,7 @@ Your second task is to predict the performance of each goalie in the second half
 After a request to the league office, you've obtained additional data on the expected goals (xG) faced by each goalkeeper. Using this data, refine your ranking of goalkeepers from Part 1a. How does incorporating this additional context change your evaluation?
 
 **Deliverables:**
-- A refined ranking of goalies from best of worst
+- A refined ranking of goalies from best to worst
 - Discussion of how these rankings differ from your previous rankings
 - Analysis of which goalies are helped (or hurt) most by accounting for xG faced
 - Interpretation of what these differences tell us about how we should be evaluating goalkeepers
@@ -48,13 +48,13 @@ After a request to the league office, you've obtained additional data on the exp
 
 ## Submission Requirements
 
-**Report**: A written report (PDF) that includes:
+A written report (PDF) that includes:
 1. Description of methodologies and any assumptions or limitations
 2. Your results (rankings, predictions, comparisons)
 3. Discussion and interpretation of results
-5. Your final scouting recommendations for the expansion draft
-6. Well-documented code integrated throughout the report (like in a markdown document)
+4. Your final scouting recommendations for the expansion draft
+5. Well-documented code integrated throughout the report (like in a markdown document)
 
 ## Questions?
 
-If you have questions about the assignment, please reach out to your TAs.
+If you have questions about this assignment, please reach out to your TAs.
