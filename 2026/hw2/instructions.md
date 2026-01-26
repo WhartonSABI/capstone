@@ -79,13 +79,13 @@ Your client ultimately cares about whether batted balls appear to carry differen
 Do both of the following:
 
 1. **Exploration:** Explore how `hit_distance` relates to other measurements, and how those relationships vary by `year`.
-2. **Model:** Fit at least one predictive model for `hit_distance` that includes:
-   - A **time component** (e.g., `year`, `month`, or a combined “year-month” indicator)
-   - Any predictors you think are relevant (including transformations and interactions), including your Part 1 pitch deceleration metric \(\Delta v\)
+2. **Model:** Build **at least two** reasonable model specifications for `hit_distance` (e.g., a simple baseline vs a richer model), using any predictors you think are relevant (including transformations and interactions), including your Part 1 pitch deceleration metric \(\Delta v\).
+
+Your modeling approach must support a comparison of carry **across years**, but how you do that is up to you (e.g., including `year` as a predictor, fitting separate models by year and comparing standardized predictions, stratifying and comparing residuals, etc.).
 
 If you use \(\Delta v\) from Part 1 in this model, explain *how* you incorporated it (e.g., as a per-pitch feature on the same row, or as an aggregated “year-level”/“pitch-type-by-year” feature joined back in).
 
-Sensitivity requirement: report your “carry by year” conclusion under **at least two** reasonable model specifications (e.g., a simple baseline vs a richer model). Discuss what changes and what stays the same.
+Sensitivity requirement: report your “carry by year” conclusion under both model specifications. Discuss what changes and what stays the same.
 
 Interpretation requirement: your final writeup must translate the model into a concrete effect statement about year-to-year differences (with uncertainty or a careful variability argument).
 
@@ -102,10 +102,11 @@ Distance is continuous, but the sportsbook ultimately cares about **home run rat
 Build a model for the probability of a home run (e.g., threshold classifiers, logistic regression with optional regularization). Minimum requirements:
 
 - Outcome: `is_home_run`
-- Include a **time component** (e.g., `year`/`month`)
 - Choose any other predictors you think are relevant (including transformations and interactions)
 - Use a train/test split or cross-validation; describe your choice
 - Report at least two evaluation views (examples: ROC AUC, log loss, calibration plot, confusion matrix at a chosen threshold)
+
+Your modeling approach must support a comparison of home run probability **across years**, but how you do that is up to you.
 
 Sensitivity requirement: report your “HR probability by year” conclusion under **at least two** reasonable model specifications (i.e., different feature sets). Discuss what changes and what stays the same.
 
