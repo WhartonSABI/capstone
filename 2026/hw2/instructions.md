@@ -81,7 +81,7 @@ Do both of the following:
 1. **Exploration:** Explore how `hit_distance` relates to other measurements, and how those relationships vary by `year`.
 2. **Model:** Build **at least two** reasonable model specifications for `hit_distance` (e.g., a simple baseline vs a richer model), using any predictors you think are relevant (including transformations and interactions), including your Part 1 pitch deceleration metric \(\Delta v\).
 
-Your modeling approach must support a comparison of carry **across years**, but how you do that is up to you (e.g., including `year` as a predictor, fitting separate models by year and comparing standardized predictions, stratifying and comparing residuals, etc.).
+Your modeling approach must support a comparison of carry **across years**, but how you do that is up to you.
 
 If you use \(\Delta v\) from Part 1 in this model, explain *how* you incorporated it (e.g., as a per-pitch feature on the same row, or as an aggregated “year-level”/“pitch-type-by-year” feature joined back in).
 
